@@ -1,5 +1,32 @@
-.relative {
+.wrapper {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  background: rgb(16, 16, 16);
+  background: linear-gradient(
+    180deg,
+    rgba(16, 16, 16, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.top {
+  flex: 2;
+}
+
+.bottom {
+  flex-basis: 40px;
+  padding: 8px;
+}
+
+.bottom button {
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  height: 100%;
+  width: 100%;
+  background-color: #006d40;
+  box-shadow: 2px 2px 4px #101010;
 }
 
 .bottomSheet {
@@ -14,6 +41,7 @@
   box-sizing: border-box;
   border-top: 1px solid #303030;
   color: white;
+  background-color: #101010;
   animation-name: active;
   animation-fill-mode: forwards;
   animation-duration: 0.3s;
