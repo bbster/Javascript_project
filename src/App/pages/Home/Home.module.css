@@ -1,0 +1,23 @@
+.flex > * {
+  flex: 1;
+}
+
+.carousel .BrainhubCarouselItem {
+  height: calc((100vh - 74px) / 2);
+}
+
+.btnContainer {
+  display: flex;
+  padding: 50px;
+}
+
+.btnContainer > div {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+svg ~ p {
+  text-align: center;
+}

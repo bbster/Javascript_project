@@ -1,0 +1,42 @@
+.relative {
+  position: relative;
+}
+
+.bottomSheet {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  border-top: 1px solid #303030;
+  color: white;
+  animation-name: active;
+  animation-fill-mode: forwards;
+  animation-duration: 0.3s;
+}
+
+.flex {
+  display: flex;
+}
+.flex label {
+  flex-basis: 80px;
+}
+.flex select,
+button {
+  flex: 1;
+}
+.btnWrapper {
+  margin-top: 16px;
+}
+@keyframes active {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: auto;
+  }
+}

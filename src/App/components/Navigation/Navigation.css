@@ -1,0 +1,22 @@
+.nav {
+  font-size: 1.5rem;
+  padding: 0 0 0 8px;
+  height: 50px;
+  text-align: center;
+  background-color: #010101;
+}
+
+.nav a span {
+  line-height: 50px;
+  color: white;
+}
+
+.subtitle {
+  height: 16px;
+  font-size: 0.8rem;
+  padding: 4px 0;
+  background-color: #202020;
+  color: white;
+  text-align: center;
+  box-shadow: 2px 2px 4px #202020;
+}
